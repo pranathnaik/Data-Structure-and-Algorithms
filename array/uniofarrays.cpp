@@ -36,6 +36,7 @@ int main()
                 if (temp == a[j])
                 {
                     found = 1;
+                    break;
                 }
             }
             if (found == 0)
